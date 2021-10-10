@@ -1,0 +1,472 @@
+{
+	"id": "9af928d8-f48e-4ad8-8a44-4fb47c7f9090",
+	"name": "https://reqres.in_APItest_suit",
+	"timestamp": "2021-08-12T00:39:17.263Z",
+	"collection_id": "13575431-8c3e2c24-7679-412f-8738-a73d0dec4021",
+	"folder_id": 0,
+	"environment_id": "8f0f0db3-3e71-41a9-90d5-8714d49181f1",
+	"totalPass": 69,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d0e85d4d-50cf-4d5d-a04a-0156949ea361",
+			"name": "List Users",
+			"time": 44,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"users are listed successfully": true,
+				"Response time is less than 500ms": true,
+				"correct page number": true,
+				"correct total pages number": true
+			},
+			"testPassFailCounts": {
+				"users are listed successfully": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 3,
+					"fail": 0
+				},
+				"correct page number": {
+					"pass": 3,
+					"fail": 0
+				},
+				"correct total pages number": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				40,
+				22,
+				44
+			],
+			"allTests": [
+				{
+					"users are listed successfully": true,
+					"Response time is less than 500ms": true,
+					"correct page number": true,
+					"correct total pages number": true
+				},
+				{
+					"users are listed successfully": true,
+					"Response time is less than 500ms": true,
+					"correct page number": true,
+					"correct total pages number": true
+				},
+				{
+					"users are listed successfully": true,
+					"Response time is less than 500ms": true,
+					"correct page number": true,
+					"correct total pages number": true
+				}
+			]
+		},
+		{
+			"id": "8a1628ac-5f2b-460e-bdd7-a8af06d6c471",
+			"name": "Single User",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 500ms": true,
+				"user id 9 = Tobias": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 3,
+					"fail": 0
+				},
+				"user id 9 = Tobias": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				205,
+				29,
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"user id 9 = Tobias": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"user id 9 = Tobias": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 500ms": true,
+					"user id 9 = Tobias": true
+				}
+			]
+		},
+		{
+			"id": "3ca8ceb4-949d-4234-86f5-79753e817b9d",
+			"name": "User Not Found",
+			"time": 26,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"No such user": true,
+				"Response time is less then 0.5 sec": true
+			},
+			"testPassFailCounts": {
+				"No such user": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less then 0.5 sec": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				197,
+				24,
+				26
+			],
+			"allTests": [
+				{
+					"No such user": true,
+					"Response time is less then 0.5 sec": true
+				},
+				{
+					"No such user": true,
+					"Response time is less then 0.5 sec": true
+				},
+				{
+					"No such user": true,
+					"Response time is less then 0.5 sec": true
+				}
+			]
+		},
+		{
+			"id": "43d43195-54a9-4656-b3ed-ec3e333910fd",
+			"name": "Create a User",
+			"time": 206,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"New user created successfully": true,
+				"Response time is less than 1 sec": true,
+				"Name is correct": true
+			},
+			"testPassFailCounts": {
+				"New user created successfully": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Name is correct": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				195,
+				230,
+				206
+			],
+			"allTests": [
+				{
+					"New user created successfully": true,
+					"Response time is less than 1 sec": true,
+					"Name is correct": true
+				},
+				{
+					"New user created successfully": true,
+					"Response time is less than 1 sec": true,
+					"Name is correct": true
+				},
+				{
+					"New user created successfully": true,
+					"Response time is less than 1 sec": true,
+					"Name is correct": true
+				}
+			]
+		},
+		{
+			"id": "0fd2129a-ee08-4343-bfff-b5b117e51ec2",
+			"name": "New Request",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Updated successfully": true,
+				"Response time is less than 500 ms": true
+			},
+			"testPassFailCounts": {
+				"Updated successfully": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 500 ms": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				211,
+				201,
+				205
+			],
+			"allTests": [
+				{
+					"Updated successfully": true,
+					"Response time is less than 500 ms": true
+				},
+				{
+					"Updated successfully": true,
+					"Response time is less than 500 ms": true
+				},
+				{
+					"Updated successfully": true,
+					"Response time is less than 500 ms": true
+				}
+			]
+		},
+		{
+			"id": "79f4e71f-075b-408f-b465-06729a391663",
+			"name": "Update a User",
+			"time": 201,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Updated successfully": true,
+				"Response time is less than 500 ms": true
+			},
+			"testPassFailCounts": {
+				"Updated successfully": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 500 ms": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				214,
+				194,
+				201
+			],
+			"allTests": [
+				{
+					"Updated successfully": true,
+					"Response time is less than 500 ms": true
+				},
+				{
+					"Updated successfully": true,
+					"Response time is less than 500 ms": true
+				},
+				{
+					"Updated successfully": true,
+					"Response time is less than 500 ms": true
+				}
+			]
+		},
+		{
+			"id": "2c3cb882-9634-4aac-9a01-97822c5ed7ce",
+			"name": "Registration",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"register is successfull": true,
+				"Response time is less than 1 sec": true
+			},
+			"testPassFailCounts": {
+				"register is successfull": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				261,
+				199,
+				206
+			],
+			"allTests": [
+				{
+					"register is successfull": true,
+					"Response time is less than 1 sec": true
+				},
+				{
+					"register is successfull": true,
+					"Response time is less than 1 sec": true
+				},
+				{
+					"register is successfull": true,
+					"Response time is less than 1 sec": true
+				}
+			]
+		},
+		{
+			"id": "01aa1013-d8f9-4009-b4c6-1a6d4f654e60",
+			"name": "Registration Unsuccessful",
+			"time": 190,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Bad request 400": true,
+				"Missing password": true,
+				"Response time is less than 1 sec": true
+			},
+			"testPassFailCounts": {
+				"Bad request 400": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Missing password": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				204,
+				197,
+				190
+			],
+			"allTests": [
+				{
+					"Bad request 400": true,
+					"Missing password": true,
+					"Response time is less than 1 sec": true
+				},
+				{
+					"Bad request 400": true,
+					"Missing password": true,
+					"Response time is less than 1 sec": true
+				},
+				{
+					"Bad request 400": true,
+					"Missing password": true,
+					"Response time is less than 1 sec": true
+				}
+			]
+		},
+		{
+			"id": "f4feecb1-afc1-4c1b-bdd8-ff8f76f81888",
+			"name": "Login",
+			"time": 245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"User loged in successfully": true,
+				"Response time is less than 1 sec": true
+			},
+			"testPassFailCounts": {
+				"User loged in successfully": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				197,
+				202,
+				245
+			],
+			"allTests": [
+				{
+					"User loged in successfully": true,
+					"Response time is less than 1 sec": true
+				},
+				{
+					"User loged in successfully": true,
+					"Response time is less than 1 sec": true
+				},
+				{
+					"User loged in successfully": true,
+					"Response time is less than 1 sec": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 4369,
+	"collection": {
+		"requests": [
+			{
+				"id": "d0e85d4d-50cf-4d5d-a04a-0156949ea361",
+				"method": "GET"
+			},
+			{
+				"id": "8a1628ac-5f2b-460e-bdd7-a8af06d6c471",
+				"method": "GET"
+			},
+			{
+				"id": "3ca8ceb4-949d-4234-86f5-79753e817b9d",
+				"method": "GET"
+			},
+			{
+				"id": "43d43195-54a9-4656-b3ed-ec3e333910fd",
+				"method": "POST"
+			},
+			{
+				"id": "0fd2129a-ee08-4343-bfff-b5b117e51ec2",
+				"method": "PUT"
+			},
+			{
+				"id": "79f4e71f-075b-408f-b465-06729a391663",
+				"method": "PATCH"
+			},
+			{
+				"id": "2c3cb882-9634-4aac-9a01-97822c5ed7ce",
+				"method": "POST"
+			},
+			{
+				"id": "01aa1013-d8f9-4009-b4c6-1a6d4f654e60",
+				"method": "POST"
+			},
+			{
+				"id": "f4feecb1-afc1-4c1b-bdd8-ff8f76f81888",
+				"method": "POST"
+			}
+		]
+	}
+}
